@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Oswald:400,700");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css");
+@import url("~react-lazy-load-image-component/src/effects/blur.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  background: #e6e6e6;
+  overflow-x: hidden;
+
+  header {
+    background: #446cb3;
+    padding: 30px 0;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Oswald";
+    div {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 1024px;
+    }
+  }
+  footer {
+    background: #446cb3;
+    padding: 10px;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1024px;
+    .imageContainer {
+      img {
+        width: 100%;
+      }
+    }
+    .row {
+      background: #fff;
+      margin-bottom: 10px;
+    }
+    .tour-details {
+      margin-top: 15px;
+      display: inline-block;
+      .ui.grid > .row {
+        padding: 0;
+        font-size: 12px;
+        margin: 0 0 5px 0;
+        .column {
+          padding-bottom: 0 !important;
+          padding-top: 5px!important;
+        }
+      }
+    }
+    p.label {
+      color: #959595;
+      text-transform: uppercase;
+    }
+  }
+  .saving-container {
+    border-bottom: 2px solid #ddd;
+  }
+  .fromDate {
+    text-align: right;
+  }
+  .ui.grid > .row.days-container {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5a5757;
+  }
+  .currency {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5a5757;
+  }
+
+  .field {
+    display: inline-flex;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+    width: 100%;
+    label {
+      font-weight: bold;
+      vertical-align: middle;
+      margin: 5px;
+    }
+  }
+}
+
+.ui.bottom.attached.segment.active.tab {
+  background: #e6e6e6;
+  border: none;
+}
+
+//Test1 Css
+.counter-container {
+  max-width: 600px;
+  margin: 0 auto;
+  .timer-container {
+    text-align: center;
+    border: 2px solid #333;
+    text-transform: uppercase;
+    background: #fff;
+    margin-top: 30px;
+    padding: 0;
+    p.timer {
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+  }
+}
