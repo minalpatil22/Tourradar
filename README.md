@@ -1,2 +1,4 @@
-# Kaodim
-Project for a scotch article. Written by me for all. Enjoy!!
+# Tourradar Assignment
+Steps to run code:
+1) npm i
+2) npm start
